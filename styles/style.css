@@ -1,8 +1,25 @@
-.statistics-container{
+
+.row{
 	text-align: center;
+}
+
+.container{
+	margin-bottom: 5%;
 	margin-top: 5%;
-	margin-right: 10%;
-    margin-left: 10%;
+}
+
+.btn-warning{
+	width: 40%;
+}
+
+.card-deck{
+	background-color: #dedede;
+}
+
+
+
+.container-fluid{
+	text-align: center;
 }
 
 .statistic-part{
@@ -18,6 +35,7 @@
 .label-numbers{
 	font-size: 1.5rem;
 	font-weight: bold;
+	display: inline;
 
 }
 

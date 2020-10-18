@@ -3,76 +3,82 @@
 <head>
 <title>Page Title</title>
 <link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
 
-<div class="statistics-container">
-	<div class="statistic-part">
-		<img src="images/img-buildings.png">
-		<div class="labels">
-			<label class="label-numbers">345</label> </br>
-			<label>Projects</label>
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<i class="fas fa-city fa-3x"></i>
+			<div class="labels">
+				<label class="label-numbers">345</label> </br>
+				<label>Projects</label>
+			</div>
 		</div>
-	</div>
+		
 
-	<div class="statistic-part">
-		<img src="images/img-people.png">
-		<div class="labels">
-			<label class="label-numbers">1278</label> </br>
-			<label>Happy Clients</label>
+		<div class="col-sm">	
+			<i class="fas fa-users fa-3x"></i>
+			<div class="labels">
+				<label class="label-numbers">1278</label> </br>
+				<label>Happy Clients</label>
+			</div>
 		</div>
-	</div>
 
-	<div class="statistic-part">
-		<img src="images/img-doc.png">
-		<div class="labels">
-			<label class="label-numbers">378</label> </br>
-			<label>Qualified Staff</label>
+		<div class="col-sm">
+			<i class="fas fa-certificate fa-3x"></i>
+			<div class="labels">
+				<label class="label-numbers">378</label> </br>
+				<label>Qualified Staff</label>
+			</div>
 		</div>
-	</div>
 
-	<div class="statistic-part">
-		<img src="images/img-machine.png">
-		<div class="labels">
-			<label class="label-numbers">3479</label> </br>
-			<label>Machinaries</label>
+		<div class="col-sm">
+			<i class="fas fa-shuttle-van fa-3x"></i>
+			<div class="labels">
+				<label class="label-numbers">3479</label> </br>
+				<label>Machinaries</label>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid-part">
-		<img src="images/img-worker.png" class="grid-image">
-		<div class="labels">
-			<h2 class="grid-headings">Construction</h2> 
-			<p class="slash">_</p>
-			<p class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="container">
+	<div class="card-deck">
+		<div class="card">
+			<img src="images/img-worker.png" class="card-img-top">
+			<div class="card-body">
+				<h2 class="card-title">Construction</h2>
+				<p class="slash">_</p>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<button class="btn btn-warning">Learn More</button>
 		</div>
-		<button class="grid-part-button	">Learn More</button>
-	</div>
 
-	<div class="grid-part">
-		<img src="images/img-workers.png" class="grid-image">
-		<div class="labels">
-			<h2 class="grid-headings">Adout us</h2> 
-			<p class="slash">_</p>
-			<p class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>	
-		<button class="grid-part-button">Learn More</button>
-	</div>
-
-	<div class="grid-part">
-		<img src="images/img-team.png" class="grid-image">
-		<div class="labels">
-			<h2 class="grid-headings">Effective teamwork</h2> 
-			<p class="slash">_</p>
-			<p class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="card">
+			<img src="images/img-workers.png" class="card-img-top">
+			<div class="card-body">
+				<h2 class="card-title">About us</h2> 
+				<p class="slash">_</p>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>	
+			<button class="btn btn-warning">Learn More</button>
 		</div>
-		<button class="grid-part-button">Learn More</button>
-	</div>
 
-	
+		<div class="card">
+			<img src="images/img-team.png" class="card-img-top">
+			<div class="card-body">
+				<h2 class="card-title">Effective teamwork</h2> 
+				<p class="slash">_</p>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<button class="btn btn-warning">Learn More</button>
+		</div>
+
+		
+	</div>
 </div>
-
 </body>
 </html>
