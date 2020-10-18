@@ -16,17 +16,6 @@
 	background-color: #dedede;
 }
 
-
-
-.container-fluid{
-	text-align: center;
-}
-
-.statistic-part{
-	display: inline-block;
-	padding-right: 10%;
-}	
-
 .labels{
 	display: inline-block;
 	text-align: left;
@@ -39,46 +28,9 @@
 
 }
 
-.grid{
-	text-align: center;
-	background-color: #dedede;
-	margin: 10%;
-}
-.grid-part{
-		display: inline-block;
-	    width: 20%;
-	    text-align: left;
-	    margin: 5%;
-}
-
-.grid-image{
-	display: block;
-
-}
 .slash{
 	text-align: left;
 	margin:0;
 	color: #ffe718;
 	font-weight: bold;
-}
-
-.grid-text{
-	text-align: left;
-
-}
-
-.grid-headings{
-	text-align: left;
-	margin-top: 10%;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-}
-
-.grid-part-button{
-	background-color: #ffe718;
-	height: 1%;
-	width: 50%;
-	border: none;
-
 }
