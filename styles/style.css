@@ -1,28 +1,36 @@
 .statistics-container{
 	text-align: center;
+	margin-top: 15%;
+	margin-right: 10%;
+    margin-left: 10%;
 }
 
 .statistic-part{
 	display: inline-block;
-	padding-right: 100px;
-}
+	padding-right: 10%;
+}	
 
 .labels{
 	display: inline-block;
+	text-align: left;
 }
 
 .label-numbers{
-	font-size: 25px;
+	font-size: 1.5rem;
 	font-weight: bold;
+
 }
 
 .grid{
 	text-align: center;
+	background-color: #dedede;
+	margin: 10%;
 }
 .grid-part{
 		display: inline-block;
 	    width: 20%;
-	    padding-right: 100px;
+	    text-align: left;
+	    margin: 5%;
 }
 
 .grid-image{
@@ -43,5 +51,16 @@
 
 .grid-headings{
 	text-align: left;
-	margin:0;
+	margin-top: 10%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+
+.grid-part-button{
+	background-color: #ffe718;
+	height: 1%;
+	width: 50%;
+	border: none;
+
 }
