@@ -1,0 +1,47 @@
+.statistics-container{
+	text-align: center;
+}
+
+.statistic-part{
+	display: inline-block;
+	padding-right: 100px;
+}
+
+.labels{
+	display: inline-block;
+}
+
+.label-numbers{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.grid{
+	text-align: center;
+}
+.grid-part{
+		display: inline-block;
+	    width: 20%;
+	    padding-right: 100px;
+}
+
+.grid-image{
+	display: block;
+
+}
+.slash{
+	text-align: left;
+	margin:0;
+	color: #ffe718;
+	font-weight: bold;
+}
+
+.grid-text{
+	text-align: left;
+
+}
+
+.grid-headings{
+	text-align: left;
+	margin:0;
+}
